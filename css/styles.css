@@ -1,0 +1,272 @@
+h1 {
+  font-family: "PT Serif", serif;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center; }
+
+h2 {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 600; }
+
+#textoHeader {
+  font-family: Poppins, sans-serif;
+  font-weight: 400; }
+
+body {
+  width: 1440px;
+  height: 1489px; }
+
+header {
+  display: flex;
+  justify-content: center;
+  padding-top: 110px;
+  padding-bottom: 96px; }
+  header div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 50%; }
+    header div h2 {
+      margin-bottom: 10px;
+      position: relative;
+      left: 75px;
+      width: fit-content; }
+    header div p {
+      margin-top: 0;
+      width: 439px;
+      height: 87px;
+      position: relative;
+      left: 75px; }
+    header div h1 {
+      position: relative;
+      left: 25px;
+      font-family: PT Serif, serif;
+      font-size: 36px; }
+
+main {
+  margin: 0 275px 115px 241px;
+  height: 1000px; }
+
+article {
+  width: 264px;
+  height: 383px; }
+  article img {
+    width: 238px;
+    height: 341px;
+    margin-bottom: 15px; }
+  article h3 {
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    margin: 0; }
+  article p {
+    transform: rotate(90deg);
+    width: fit-content;
+    font-family: PT Serif;
+    font-weight: 400;
+    font-size: 12px;
+    position: relative;
+    top: -354px;
+    left: 210px;
+    height: fit-content; }
+
+#bill p {
+  padding-bottom: 0; }
+
+#saba {
+  position: relative;
+  top: -300px;
+  left: 325px; }
+  #saba p {
+    position: relative;
+    top: -362px;
+    left: 220px; }
+
+#shae {
+  position: relative;
+  top: -764px;
+  left: 650px; }
+  #shae p {
+    top: -374px;
+    left: 230px; }
+
+#skylah {
+  position: relative;
+  top: -650px; }
+  #skylah p {
+    top: -365px;
+    left: 223px; }
+
+#griff {
+  position: relative;
+  top: -950px;
+  left: 325px; }
+  #griff p {
+    position: relative;
+    top: -368px;
+    left: 230px; }
+
+#stan {
+  position: relative;
+  top: -1416px;
+  left: 650px; }
+  #stan p {
+    top: -370px;
+    left: 228px; }
+
+footer {
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  color: #a9a9a9; }
+  footer span {
+    font-weight: 700; }
+  footer a {
+    text-decoration: none;
+    color: #a9a9a9; }
+  footer a:active {
+    color: #a9a9a9; }
+
+@media only screen and (max-width: 375px) {
+  html {
+    height: 1409px; }
+  body {
+    width: 340px;
+    height: 1409px; }
+  header {
+    flex-direction: column;
+    width: 350px;
+    position: relative;
+    top: -50px; }
+    header div {
+      width: 100%; }
+      header div p {
+        width: 100%;
+        position: relative;
+        left: 0;
+        font-size: 14px; }
+      header div h1 {
+        font-size: 36px;
+        position: relative;
+        left: 0;
+        width: fit-content; }
+      header div h2 {
+        position: relative;
+        left: 0; }
+  article {
+    width: 156px;
+    height: 237px; }
+  #bill {
+    position: absolute;
+    width: 156px;
+    height: 237px;
+    left: 19px;
+    top: 370px; }
+    #bill img {
+      width: 138.72px;
+      height: 209px; }
+    #bill p {
+      position: absolute;
+      width: 130px;
+      height: 11px;
+      left: 100px;
+      top: 47px;
+      font-size: 10px; }
+    #bill h3 {
+      font-size: 14px; }
+  #saba {
+    position: absolute;
+    width: 157px;
+    height: 237px;
+    left: 200px;
+    top: 420px; }
+    #saba img {
+      width: 138.72px;
+      height: 209px; }
+    #saba p {
+      position: absolute;
+      width: 130px;
+      height: 11px;
+      left: 90px;
+      top: 47px;
+      font-size: 10px; }
+    #saba h3 {
+      font-size: 14px; }
+  #shae {
+    position: absolute;
+    width: 154px;
+    height: 247px;
+    left: 19px;
+    top: 670px; }
+    #shae img {
+      width: 138.72px;
+      height: 209px; }
+    #shae p {
+      position: absolute;
+      width: 130px;
+      height: 11px;
+      left: 100px;
+      top: 47px;
+      font-size: 10px; }
+    #shae h3 {
+      font-size: 14px; }
+  #skylah {
+    position: absolute;
+    width: 154px;
+    height: 247px;
+    left: 200px;
+    top: 720px; }
+    #skylah img {
+      width: 138.72px;
+      height: 209px; }
+    #skylah p {
+      position: absolute;
+      width: 130px;
+      height: 11px;
+      left: 90px;
+      top: 47px;
+      font-size: 10px; }
+    #skylah h3 {
+      font-size: 14px; }
+  #griff {
+    position: absolute;
+    width: 154px;
+    height: 247px;
+    left: 19px;
+    top: 970px; }
+    #griff img {
+      width: 138.72px;
+      height: 209px; }
+    #griff p {
+      position: absolute;
+      width: 130px;
+      height: 11px;
+      left: 100px;
+      top: 47px;
+      font-size: 10px; }
+    #griff h3 {
+      font-size: 14px; }
+  #stan {
+    position: absolute;
+    width: 154px;
+    height: 247px;
+    left: 200px;
+    top: 1025px; }
+    #stan img {
+      width: 138.72px;
+      height: 209px; }
+    #stan p {
+      position: absolute;
+      width: 130px;
+      height: 11px;
+      left: 90px;
+      top: 47px;
+      font-size: 10px; }
+    #stan h3 {
+      font-size: 14px; }
+  footer {
+    position: absolute;
+    width: 287px;
+    height: 17px;
+    left: 46px;
+    top: 1368px;
+    font-size: 14px; } }
